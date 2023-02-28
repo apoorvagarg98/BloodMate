@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">BloodMate</string>
+    <string name="underline"> <u>RUDRAKSHA WELFARE FOUNDATION </u> </string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="otp">OTP VERIFICATION</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="wait_we_are_sending_you_a_new_password_copy_the_password_from_your_email_address_if_not_received_check_your_spam_box">Enter your registered email address.\n We are sending you email for Verification. \nIf not received, Do check your Spam Box!.</string>
+    <string name="wait_otp">We will send you an one time OTP on this given number</string>
+    <string name="getotp">Get OTP</string>
+    <string name="mobile">Enter Mobile Number</string>
+    <string name="pincode">Enter Pincode</string>
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="date">Date Range</string>
+    <string name="remarks">Any other Special Remarks</string>
+    <string name="reg">REGISTRATION DETAILS</string>
+    <string name="reg1">REGISTRATION</string>
+    <string name="password">Password</string>
+    <string name="conpassword">Confirm Password</string>
+    <string name="signup">Sign up</string>
+    <string name="Pick">Pick up and drop Required?</string>
+      <string name="text1">Any Existing Diseases?</string>
+    <string name="text2">Any Operation in Last one year?</string>
+    <string name="text3">Do you have any Allergy?</string>
+    <string name="next3">Next</string>
+    <string name="blood">Blood Group</string>
+    <string name="status">Status</string>
+    <string name="enterotp">Please Enter the OTP Sent to you</string>
+    <string name="name1">Enter Name</string>
+    <string name="email1">Enter Email</string>
+    <string name="contact">Enter Mobile Number</string>
+    <string name="pincode1">Enter Pincode</string>
+    <string name="blood1">Select Blood Group</string>
+    <string name="reason">Reason</string>
+    <string name="gender">Select Gender</string>
+    <string name="next1">Next</string>
+    <string name="profession">Select Profession</string>
+    <string name="datebirth">Date Of Birth</string>
+    <string name="lastblood">Last Blood Donation</string>
+    <string name="lastplat">Last Platelets Donation</string>
+    <string name="smoke">Do You Smoke or Drink?</string>
+    <string name="lastblooddate">Last Blood Donated Date</string>
+    <string name="next2">Next</string>
+
+    <string name="ugender">Gender</string>
+    <string name="uphone">Contact No</string>
+    <string name="uavailable">Availability</string>
+    <string name="upick">Pick up/Drop</string>
+    <string name="ulocation">Location</string>
+    <string name="ulogout">Log Out</string>
+    <string name="donor">DONOR TYPE</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send Message</string>
+
+
+
+
+
+</resources>

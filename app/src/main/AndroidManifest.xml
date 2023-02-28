@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="Apoorva">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RakkktCharitr"
+        android:usesCleartextTraffic="true">
+        <activity android:name="Apoorva.Verify_otp"></activity>
+        <activity android:name="Apoorva.registration4" />
+        <activity android:name="Apoorva.Ourteam" />
+        <activity android:name="Apoorva.Forgot_Password" />
+        <activity android:name="Apoorva.PlasmaActivity" />
+        <activity android:name="Apoorva.Profileofdonors" />
+        <activity android:name="Apoorva.notificationactivity" />
+        <activity android:name="Apoorva.Update_Status" />
+        <activity android:name="Apoorva.MainActivity2" />
+        <activity android:name="Apoorva.Otp_activity" />
+        <activity android:name="Apoorva.Login_activity" />
+        <activity android:name="Apoorva.register_page3" />
+        <activity android:name="Apoorva.register_page1" />
+        <activity android:name="Apoorva.register_page" />
+        <activity android:name="Apoorva.MainActivity" />
+        <activity android:name="Apoorva.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="Apoorva.Notificationclass"
+            android:directBootAware="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="Apoorva.Notificationclass"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="Apoorva.AlertReceiver">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.harsh1310.rakkktcharitr.R;
 
 public class AlertReceiver extends BroadcastReceiver {
     private static final String CHANNEL_ID = "this.is.my.channelId";//you can add

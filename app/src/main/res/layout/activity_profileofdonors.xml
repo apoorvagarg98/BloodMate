@@ -38,7 +38,9 @@
                     android:id="@+id/dprof1"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:src="@drawable/downloadpic"
+                    tools:src="@drawable/downloadpic" />
 
             </LinearLayout>
 
@@ -50,7 +52,7 @@
                 android:layout_marginTop="25dp"
 
                 android:fontFamily="@font/rubik_medium"
-                android:textColor="@color/red"
+                android:textColor="@color/black"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +65,7 @@
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/rubik_medium"
                 android:hint="@string/donor"
-                android:textColorHint="@color/red"
+                android:textColorHint="@color/black"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -86,8 +88,8 @@
                 android:padding="16dp"
                 android:singleLine="true"
                 android:textAlignment="center"
-                android:textColor="@color/red"
-                android:textColorHint="@color/red"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@id/donor"
                 tools:ignore="RtlSymmetry,TextFields" />
@@ -116,7 +118,7 @@
                     android:gravity="center"
                     android:paddingStart="10dp"
                     android:text="@string/ugender"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     tools:ignore="RtlSymmetry" />
 
@@ -134,7 +136,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="10dp"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="17sp"
                     tools:ignore="HardcodedText" />
                 android:importantForAutofill="no" />
@@ -165,7 +167,7 @@
                     android:gravity="center"
                     android:paddingStart="10dp"
                     android:text="@string/uavailable"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     tools:ignore="RtlSymmetry" />
 
@@ -180,7 +182,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="10dp"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="17sp"
                     tools:ignore="HardcodedText" />
                 android:importantForAutofill="no" />
@@ -211,7 +213,7 @@
                     android:gravity="center"
                     android:paddingStart="10dp"
                     android:text="@string/uphone"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     tools:ignore="RtlSymmetry" />
 
@@ -226,7 +228,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="10dp"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="17sp"
                     tools:ignore="HardcodedText" />
                 android:importantForAutofill="no" />
@@ -256,7 +258,7 @@
                     android:gravity="center"
                     android:paddingStart="10dp"
                     android:text="@string/ulocation"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     tools:ignore="RtlSymmetry" />
 
@@ -271,7 +273,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="10dp"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="17sp"
                     tools:ignore="HardcodedText" />
                 android:importantForAutofill="no" />
@@ -301,7 +303,7 @@
                     android:gravity="center"
                     android:paddingStart="10dp"
                     android:text="@string/upick"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     tools:ignore="RtlSymmetry" />
 
@@ -316,7 +318,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="10dp"
-                    android:textColor="@color/red"
+                    android:textColor="@color/black"
                     android:textSize="17sp"
                     tools:ignore="HardcodedText" />
                 android:importantForAutofill="no" />
@@ -330,7 +332,7 @@
                 android:layout_width="220dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/custom_button_red"
+                android:background="@drawable/btnn_bg"
                 android:elevation="5dp"
                 android:fontFamily="@font/rubik_medium"
                 android:text="@string/send"

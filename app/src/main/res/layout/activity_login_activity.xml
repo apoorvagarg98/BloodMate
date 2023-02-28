@@ -18,39 +18,17 @@
             android:layout_height="match_parent">
 
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/appIcon"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="999dp"
-                android:layout_marginTop="55dp"
-                app:cardBackgroundColor="@color/white"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/logo"
-                    android:scaleType="centerCrop"
-                    tools:ignore="ContentDescription" />
-            </androidx.cardview.widget.CardView>
-
-
             <TextView
                 android:id="@+id/tvLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="@string/login"
                 android:fontFamily="@font/rubik_medium"
-                android:textColor="@color/red"
+                android:text="@string/login"
+                android:textColor="@color/black"
                 android:textSize="25sp"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/appIcon"/>
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="200dp" />
 
 
             <EditText
@@ -100,18 +78,18 @@
                 android:id="@+id/forgotpassword"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:text="@string/forgot_password"
-                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/my_ripple_effect"
+                android:fontFamily="@font/rubik_medium"
                 android:gravity="center"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
-                android:fontFamily="@font/rubik_medium"
-                android:background="@drawable/my_ripple_effect"
-                android:textColor="@color/red"
-                android:layout_marginEnd="10dp"
-                android:layout_marginTop="20dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@id/loginpass"
-                app:layout_constraintTop_toBottomOf="@id/loginpass"/>
+                app:layout_constraintTop_toBottomOf="@id/loginpass" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/loginbtn"

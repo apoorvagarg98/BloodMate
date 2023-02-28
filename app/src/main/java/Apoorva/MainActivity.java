@@ -52,15 +52,7 @@ public class MainActivity extends AppCompatActivity {
                         transaction1.commit();
 
                         break;
-                    case R.id.ourteam:
-                        FragmentTransaction transaction2 = getSupportFragmentManager().beginTransaction();
-                        transaction2.replace(R.id.frame, new Ourteamfragement());
-                        transaction2.commit();
-                        break;
-                    case R.id.faq:
-                        FragmentTransaction transaction3 = getSupportFragmentManager().beginTransaction();
-                        transaction3.replace(R.id.frame, new faqfrag());
-                        transaction3.commit();
+
                 }
 
                 return true;

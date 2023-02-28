@@ -22,7 +22,6 @@
         android:usesCleartextTraffic="true">
         <activity android:name="Apoorva.Verify_otp"></activity>
         <activity android:name="Apoorva.registration4" />
-        <activity android:name="Apoorva.Ourteam" />
         <activity android:name="Apoorva.Forgot_Password" />
         <activity android:name="Apoorva.PlasmaActivity" />
         <activity android:name="Apoorva.Profileofdonors" />
